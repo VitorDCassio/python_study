@@ -143,3 +143,24 @@
 #     avaliar_recruta(15)
 # except (ValueError,TypeError) as erros_de_nivel:
 #     print(f"\n[ALERTA VERMELHO]: {erros_de_nivel}")
+
+# with open("registro_guilda.txt", "w") as livro:
+#     livro.write("--- LIVRO DE REGISTROS DA GUILDA AHJIN ---\n Membro Fundador: Sung Jin-Woo | Rank: S\n")
+
+# print("Livro de registros criado com sucesso no HD!")
+
+## TERMINAL DE CADASTRO
+
+# nome_cacador = input("Digite o nome do novo membro: ")
+# rank_cacador = input("Digite o Rank do caçador: ")
+
+# with open("registro_guilda.txt", "a") as livro:
+#     livro.write(f"Novo Membro: {nome_cacador} | Rank: {rank_cacador}\n")
+
+# print("Membro adicionado ao livro com sucesso!")
+
+with open("registro_guilda.txt", "r", encoding="utf-8") as livro:
+    for linha in livro:
+        linha_limpa = linha.strip()
+        print(f"[SISTEMA_LEITURA]: {linha_limpa}")
+

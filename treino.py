@@ -159,8 +159,23 @@
 
 # print("Membro adicionado ao livro com sucesso!")
 
-with open("registro_guilda.txt", "r", encoding="utf-8") as livro:
-    for linha in livro:
-        linha_limpa = linha.strip()
-        print(f"[SISTEMA_LEITURA]: {linha_limpa}")
+# with open("registro_guilda.txt", "r", encoding="utf-8") as livro:
+#     for linha in livro:
+#         linha_limpa = linha.strip()
+#         print(f"[SISTEMA_LEITURA]: {linha_limpa}")
+
+# with open("base_cacadores.csv" , "w") as base:
+#     base.write("Nome,Rank,Guilda\n")
+#     base.write("Sung Jin-Woo,S,Ahjin\n")
+#     base.write("Baek Yoon-Ho,S,Tigre Branco\n")
+#     base.write("Yoo Jinho,D,Ahjin\n")
+
+import csv
+
+with open("base_cacadores.csv" , "r") as base:
+    tabela = csv.DictReader(base)
+    for linha in tabela:
+        print(f"Caçador: {linha["Nome"]} | Nível de Ameaça: {linha["Rank"]}")
+        
+
 

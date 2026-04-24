@@ -458,12 +458,12 @@ calcular_soma(1000000)  # Isso vai imprimir o tempo de execução da função ca
 # PUT (atualizar dados), DELETE (excluir dados), etc. As requisições HTTP são usadas para interagir com APIs e web services, permitindo que os 
 # clientes acessem e manipulem dados de forma eficiente. Por exemplo, usar a biblioteca requests para fazer uma requisição POST a uma API de 
 # cadastro de usuários para criar um novo usuário.
-'''import requests
+import requests
 url = 'https://api.exemplo.com/usuarios'
 dados = {'nome': 'Alice', 'email': 'alice@example.com'}
 response = requests.post(url, json=dados)  
 if response.status_code == 201:
-    print("Usuário criado com sucesso!")'''
+    print("Usuário criado com sucesso!")
 
 ##JSON (JavaScript Object Notation) - Um formato de dados leve e fácil de ler, usado para representar objetos e estruturas de dados em APIs e web services.
 #  JSON é amplamente utilizado para troca de dados entre clientes e servidores, permitindo que os dados sejam transmitidos de forma eficiente. Por exemplo,

@@ -1,0 +1,13 @@
+{
+    "apelido": "JokerMagus",
+    "habilidade": [
+        "Programar",
+        "Tocar Violino",
+        "Cozinhar",
+        "Estudar"
+    ],
+    "status": {
+        "mana": 350,
+        "stamina": 100
+    }
+}

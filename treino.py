@@ -170,12 +170,54 @@
 #     base.write("Baek Yoon-Ho,S,Tigre Branco\n")
 #     base.write("Yoo Jinho,D,Ahjin\n")
 
-import csv
+# import csv
 
-with open("base_cacadores.csv" , "r") as base:
-    tabela = csv.DictReader(base)
-    for linha in tabela:
-        print(f"Caçador: {linha["Nome"]} | Nível de Ameaça: {linha["Rank"]}")
+# with open("base_cacadores.csv" , "r") as base:
+#     tabela = csv.DictReader(base)
+#     for linha in tabela:
+#         print(f"Caçador: {linha["Nome"]} | Nível de Ameaça: {linha["Rank"]}")
         
+# with open("base_cacadores.csv" , "a" , newline="" , encoding="utf-8" ) as base:
+#     colunas = ["Nome","Rank","Guilda"]
+#     escritor = csv.DictWriter(base,fieldnames=colunas)
+#     escritor.writerow({"Nome":"Choi Jong-In" , "Guilda":"Hunters" , "Rank":"S"})
+# print("Caçador inserido com a Pena de Ouro!")
 
+# meu_cacador = {
+#     "apelido" : "JokerMagus",
+#     "habilidade" : ["Programar","Tocar Violino","Cozinhar"],
+#     "status" : {
+#         "mana":350,
+#         "stamina": 25
+#     }
+# }
 
+# print(meu_cacador["apelido"])
+# print(meu_cacador["habilidade"][1])
+# print(meu_cacador["status"]["mana"])
+
+# import json
+
+# with open("ficha_jokermagus.json", "w", encoding="utf-8") as arquivo:
+#     json.dump(meu_cacador, arquivo, indent=4, ensure_ascii=False)
+
+# print("Ficha do Caçador exportada para JSON com sucesso!")
+
+import json
+
+# PASSO 1: A LEITURA
+with open("ficha_jokermagus.json", "r", encoding="utf-8") as arquivo:
+    # Carregamos os dados e damos um nome curto e fácil: 'ficha'
+    ficha = json.load(arquivo)
+
+# PASSO 2: O UPGRADE (Fora do bloco, uma ação por linha!)
+ficha["habilidade"].append("Estudar")
+ficha["status"]["stamina"] = 100
+
+# PASSO 3: O SALVAMENTO
+# Nota: Lembre-se de colocar o encoding="utf-8" aqui também!
+with open("ficha_jokermagus.json", "w", encoding="utf-8") as arquivo:
+    # Salvamos a variável 'ficha' (que agora está atualizada) de volta no HD!
+    json.dump(ficha, arquivo, indent=4, ensure_ascii=False)
+
+print("Ficha atualizada com sucesso no HD!")

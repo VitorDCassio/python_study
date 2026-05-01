@@ -1,4 +1,4 @@
-# 🚀 Python & Automação | Repositório de Estudos
+# 🚀 Python | Repositório de Estudos
 
 > *"Aplicando Engenharia de Software para resolver gargalos operacionais e automatizar processos."*
 

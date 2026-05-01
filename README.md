@@ -18,21 +18,9 @@ Atuo profissionalmente na linha de frente da logística e controle de estoque (A
 
 ---
 
-## 📦 Projetos e Scripts em Destaque
-
-Aqui estão os códigos já desenvolvidos e em aprimoramento neste repositório:
-
-### 1. Dashboard Logístico de KPIs (`kpis_frota.py`)
-Um script de engenharia de dados focado na consolidação de indicadores operacionais de transporte.
-* **O que faz:** Processa dados brutos de rotas de motoristas e gera um dashboard visual interativo comparando a volumetria de carga (Peso Transportado em KG) versus o esforço de rota (KM Rodado).
-* **Bibliotecas utilizadas:** `pandas` (para agrupamento e consolidação dos dados) e `matplotlib` (para renderização do gráfico com eixos gêmeos).
-* **Impacto:** Demonstra a capacidade de substituir horas de trabalho manual em planilhas por processamento instantâneo em Python.
-
----
-
 ## 🛠️ Tecnologias e Habilidades Práticas
 
-* **Linguagens & Dados:** Python, Pandas, Matplotlib.
+* **Linguagens & Dados:** Python.
 * **Ferramentas & Versionamento:** Git, GitHub, VS Code, Ambientes Virtuais (venv).
 * **Soft Skills:** Autodidatismo, comunicação interpessoal, visão analítica focada na regra de negócio.
 

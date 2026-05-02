@@ -203,21 +203,21 @@
 
 # print("Ficha do Caçador exportada para JSON com sucesso!")
 
-import json
+# import json
 
-# PASSO 1: A LEITURA
-with open("ficha_jokermagus.json", "r", encoding="utf-8") as arquivo:
-    # Carregamos os dados e damos um nome curto e fácil: 'ficha'
-    ficha = json.load(arquivo)
+# # PASSO 1: A LEITURA
+# with open("ficha_jokermagus.json", "r", encoding="utf-8") as arquivo:
+#     # Carregamos os dados e damos um nome curto e fácil: 'ficha'
+#     ficha = json.load(arquivo)
 
-# PASSO 2: O UPGRADE (Fora do bloco, uma ação por linha!)
-ficha["habilidade"].append("Estudar")
-ficha["status"]["stamina"] = 100
+# # PASSO 2: O UPGRADE (Fora do bloco, uma ação por linha!)
+# ficha["habilidade"].append("Estudar")
+# ficha["status"]["stamina"] = 100
 
-# PASSO 3: O SALVAMENTO
-# Nota: Lembre-se de colocar o encoding="utf-8" aqui também!
-with open("ficha_jokermagus.json", "w", encoding="utf-8") as arquivo:
-    # Salvamos a variável 'ficha' (que agora está atualizada) de volta no HD!
-    json.dump(ficha, arquivo, indent=4, ensure_ascii=False)
+# # PASSO 3: O SALVAMENTO
+# # Nota: Lembre-se de colocar o encoding="utf-8" aqui também!
+# with open("ficha_jokermagus.json", "w", encoding="utf-8") as arquivo:
+#     # Salvamos a variável 'ficha' (que agora está atualizada) de volta no HD!
+#     json.dump(ficha, arquivo, indent=4, ensure_ascii=False)
 
-print("Ficha atualizada com sucesso no HD!")
+# print("Ficha atualizada com sucesso no HD!")

@@ -1,0 +1,12 @@
+[
+    {
+        "placa": "SP-202",
+        "fornecedor": "Bobinas Omega",
+        "status": "Ativo"
+    },
+    {
+        "placa": "MG-404",
+        "fornecedor": "Embalagens Eco",
+        "status": "Ativo"
+    }
+]

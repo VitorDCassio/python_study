@@ -11,7 +11,7 @@ Este espaço é dedicado a documentar minha evolução técnica. Mais do que ape
 Olá, meu nome é **Vitor D'Cassio**. 
 Sou um entusiasta da tecnologia, autodidata e atualmente estudante de **Engenharia de Software (Cruzeiro do Sul)**. 
 
-Atuo profissionalmente na linha de frente da logística e controle de estoque (Almoxarifado). Essa vivência diária com recebimento de cargas, controle de matéria-prima e sistemas ERP me deu uma visão sistêmica apurada. Hoje, utilizo minha proatividade e pensamento lógico para desenvolver scripts e ferramentas que transformam dados brutos em inteligência de negócios.
+Atuo profissionalmente na linha de frente da logística e analise de processos. Essa vivência diária com recebimento de cargas, controle de matéria-prima e sistemas ERP me deu uma visão sistêmica apurada. Hoje, utilizo minha proatividade e pensamento lógico para desenvolver scripts e ferramentas que transformam dados brutos em inteligência de negócios.
 
 * **Perfil:** Resolução de problemas, foco na automação de processos rotineiros e melhoria contínua.
 * **Interesses adicionais:** Além dos códigos, tenho uma forte conexão com a música e atuo como violinista nas horas vagas.
